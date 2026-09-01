@@ -33,6 +33,9 @@ const About = () => {
                 },
                 '-=0.5'
             )
+        return() => {
+            titleSplit.revert();
+        }
     })
 
     return (
